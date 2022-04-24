@@ -1,4 +1,5 @@
 [
   "hubot-help",
-  "hubot-grafana"
+  "hubot-grafana",
+  "hubot-cron-commands"
 ]
