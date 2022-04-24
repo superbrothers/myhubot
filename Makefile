@@ -31,10 +31,10 @@ docker-push-%:
 .PHONY: docker-push-all
 docker-push-all: $(addprefix docker-push-,$(ALL_ARCH))
 
+.PHONY: docker-manifest-push
 docker-manifest-push:
 	docker manifest create --amend $(IMAGE) $(addprefix $(IMAGE)-,$(ALL_ARCH))
-	@for arch in $(ALL_ARCH); do docker manifest annotate --arch $${arch} $(IMA
-GE) $(IMAGE)-$${arch}; done
+	@for arch in $(ALL_ARCH); do docker manifest annotate --arch $${arch} $(IMAGE) $(IMAGE)-$${arch}; done
 	docker manifest push --purge $(IMAGE)
 
 .PHONY: push-all
