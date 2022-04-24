@@ -4,9 +4,6 @@
   "private": true,
   "author": "Kazuki Suda <kazuki.suda@gmail.com>",
   "description": "My hubot",
-  "scripts": {
-    "start": "bin/hubot -a slack"
-  },
   "dependencies": {
     "hubot": "^3.3.2",
     "hubot-grafana": "^3.1.2",
