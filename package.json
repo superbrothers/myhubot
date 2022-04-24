@@ -6,6 +6,7 @@
   "description": "My hubot",
   "dependencies": {
     "hubot": "^3.3.2",
+    "hubot-cron-commands": "^0.3.0",
     "hubot-grafana": "^3.1.2",
     "hubot-help": "^1.0.1",
     "hubot-slack": "^4.10.0"
