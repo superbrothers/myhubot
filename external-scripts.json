@@ -1,5 +1,6 @@
 [
   "hubot-help",
   "hubot-grafana",
-  "hubot-cron-commands"
+  "hubot-cron-commands",
+  "hubot-redis-brain"
 ]
