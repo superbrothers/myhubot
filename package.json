@@ -5,7 +5,7 @@
   "author": "Kazuki Suda <kazuki.suda@gmail.com>",
   "description": "My hubot",
   "dependencies": {
-    "hubot": "^3.3.2",
+    "hubot": "^6.0.0",
     "hubot-cron-commands": "^0.3.0",
     "hubot-grafana": "^3.2.2",
     "hubot-help": "^1.0.1",
