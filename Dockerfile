@@ -1,4 +1,4 @@
-FROM docker.io/node:19
+FROM docker.io/node:21
 
 ARG TARGETARCH
 
